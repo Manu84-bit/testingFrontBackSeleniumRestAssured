@@ -2,14 +2,12 @@ package com.TestBack;
 
 import com.google.gson.JsonObject;
 import io.restassured.RestAssured;
-import io.restassured.authentication.FormAuthConfig;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.json.simple.JSONObject;
 import org.junit.jupiter.api.Tag;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import static io.restassured.RestAssured.given;
+
 public class BackTest {
 
 
